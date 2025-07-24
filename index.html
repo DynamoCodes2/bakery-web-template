@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Bakery Website</title>
+</head>
+<body class="light-theme">
+    <!-- Header -->
+    <section id="header">
+        <a href="#" class="logo">Bakery</a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Favorites</a></li>
+                <li><a href="#">Customization</a></li>
+                <li><a href="#">About</a></li>
+                <li><a class="mode_icon"><i class="fas fa-sun mode-icon" style="color: black;"></i></a></li>
+                <a href="#"><i id="close" class="fas fa-times"></i></a>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <a id="bar"><i class="fas fa-bars"></i></a>
+        </div>
+    </section>
+
+    <!-- Home -->
+    <div class="home container">
+        <div class="home__content">
+            <h4>Freshly Baked Joy</h4>
+            <h1>Pure Delight</h1>
+            <h2>Your Bakery</h2>
+            <p>Warm, Sweet, and Delicious</p>
+            <button class="normalbtn"><a>Order Now!</a></button>
+        </div>
+    </div>
+
+    <!-- Menu -->
+    <div class="menu container">
+        <div class="menu__title">
+            <h2 class="title">Delightful Cakes</h2>
+            <p class="sub_title">Exquisite flavors for every occasion</p>
+        </div>
+
+        <div class="pro__container">
+            <div class="products">
+                <div class="product">
+                    <img src="img/Menu/cake-1.jpeg" alt="">
+                    <div class="pro__detail">
+                        <h2>Chocolate Cake</h2>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <h3 class="price">$80</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/Menu/cake-2.jpeg" alt="">
+                    <div class="pro__detail">
+                        <h2>White Rose Sprinkle Cake</h2>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <h3 class="price">$87</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/Menu/cake-3.jpeg" alt="">
+                    <div class="pro__detail">
+                        <h2>Chocolate Cake</h2>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <h3 class="price">$60</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/Menu/cake-4.jpg" alt="">
+                    <div class="pro__detail">
+                        <h2>Special Occasional Cake</h2>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <h3 class="price">$90</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/Menu/cake-5.jpeg" alt="">
+                    <div class="pro__detail">
+                        <h2>Rainbow Cake</h2>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <h3 class="price">$63.89</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/Menu/cake-6.jpg" alt="">
+                    <div class="pro__detail">
+                        <h2>Classical Chocolate Cake</h2>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <h3 class="price">$55.9</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button class="normalbtn"><a href="#" id="viewer">1</a></button>
+            <button class="normalbtn"><a href="#" id="viewer">2</a></button>
+            <button class="normalbtn"><i class="fas fa-arrow-right-long"></i><a href="#" id="viewer">View Full Menu</a></button>
+        </div>
+    </div>
+    
+    <!-- News -->
+    <div class="news container">
+        <div class="news__content">
+            <p class="news__head subtitle">Flash Sale, <span>50% Off</span> on all dairy products</p>
+            <h2 class="news__title title">New Years Sale!</h2>
+            <p class="news__subtitle subtitle">Enjoy <span>50% Off</span> on all dairy products, with a free freshly baked loaf of bread on every purchase over <span>$50!</span> Start the New Year with delicious savings!</p>
+            <button class="normalbtn">Order Now</button>
+        </div>
+    </div>
+
+    <!-- Favorite -->
+     <div class="favorite container">
+        <div class="fav__title">
+            <h2 class="title">Our Customers Choice</h2>
+        </div>
+
+        <div class="pro__container">
+            <div class="products">
+                <div class="product" id="one">
+                    <img src="img/Favorites/blueberry pie.jpg" alt="">
+                    <div class="pro__detail">
+                        <h2>Blueberry Pie</h2>
+                    </div>
+                </div>
+                <div class="product card" id="two">
+                    <p>
+                        Indulge in the rich, tangy sweetness of our freshly baked Blueberry Pie. Made with a buttery, flaky crust and filled with luscious, ripe blueberries, it's the perfect dessert for any occasion. Served warm or chilled, it's a timeless favorite for pie lovers.
+                    </p>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>$35</h3>
+                    <button class="normalbtn">Buy Now</button>
+                </div>
+                <div class="product card" id="three">
+                    <p>
+                        Our Chocolate Chip Muffins are a delightful treat packed with gooey chocolate goodness in every bite. Soft, moist, and bursting with flavor, they make the perfect companion to your morning coffee or an afternoon snack. Enjoy the classic taste that never goes out of style!
+                    </p>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>$10</h3>
+                    <button class="normalbtn">Buy Now</button>
+                </div>
+                <div class="product" id="four">
+                    <img src="img/Favorites/chocolate-muffin.jpg" alt="">
+                    <div class="pro__detail">
+                        <h2>Chocolate Muffins</h2>
+                    </div>
+                </div>
+                <div class="product" id="five">
+                    <img src="img/Favorites/Donuts.jpg" alt="">
+                    <div class="pro__detail">
+                        <h2>Donuts</h2>
+                    </div>
+                </div>
+                <div class="product card" id="six">
+                    <p>
+                        Satisfy your cravings with our irresistible donuts, available in a variety of flavors and toppings. From classic glazed to chocolate frosted and jelly-filled, every donut is a bite of happiness. Perfectly fried and deliciously soft, they’re a must-try for every sweet tooth!
+                    </p>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>$27</h3>
+                    <button class="normalbtn">Buy Now</button>
+                </div>
+            </div>
+        </div>
+     </div>
+
+    <!-- Sign in -->
+     <div class="news sign container">
+        <div class="news__content">
+            <h2 class="news__title title">Sign in for more Mega Offers</h2>
+            <p class="news__subtitle subtitle">Sign in to get more offers and online orders, beware for the cheat-codes for special discount on your orders</p>
+        </div>
+        <form action="" class="form">
+            <input type="text" placeholder="Your Email Address" id="txt">
+            <input type="button" value="Sign in" class="normalbtn">
+        </form>
+     </div>
+
+    <!-- Customization -->
+     <div class="custom container">
+        <div class="custom__content">
+            <h2 class="title custom__title">Our Customer's Customized Orders</h2>
+            <p class="subtitle custom__sub">Indulge in our customers special orders for special occasions</p>
+        </div>
+
+        <div class="pro__container">
+            <div class="products">
+                <div class="product__card">
+                    <div class="product">
+                        <img src="img/Custom/cake-7.png" alt="">
+                        <div class="pro__detail">
+                            <h2>Dark Delight Cake</h2>
+                            <h3>Mocha Bliss Layers</h3>
+                            <h3>Ultimate Choco Fantasy</h3>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <h3 class="price">$95</h3>
+                        </div>
+                    </div>
+                    <div class="card product">
+                        <div class="card__detail">
+                            <h4>Floral Elegance in Every Bite</h4>
+                            <p>This sophisticated ivory cake exudes grace and luxury. Decorated with delicate piped swirls, intricate lace patterns, and a smooth buttercream finish, it’s ideal for weddings, anniversaries, or elegant gatherings. Beneath the classic design lies moist layers of vanilla sponge paired with silky buttercream filling, ensuring every bite is unforgettable.</p>
+                            <button class="normalbtn">Customize Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product__card">
+                    <div class="product">
+                        <img src="img/Custom/cake-8.png" alt="">
+                        <div class="pro__detail">
+                            <h2>Garden Bliss Cake</h2>
+                            <h3>Floral Symphony</h3>
+                            <h3>Enchanted Bloom Layers</h3>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <h3 class="price">$105</h3>
+                        </div>
+                    </div>
+                    <div class="card product">
+                        <div class="card__detail">
+                            <h4>Classic Ivory for Every Occasion</h4>
+                            <p>This sophisticated ivory cake exudes grace and luxury. Decorated with delicate piped swirls, intricate lace patterns, and a smooth buttercream finish, it’s ideal for weddings, anniversaries, or elegant gatherings. Beneath the classic design lies moist layers of vanilla sponge paired with silky buttercream filling, ensuring every bite is unforgettable.</p>
+                            <button class="normalbtn">Customize Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product__card">
+                    <div class="product">
+                        <img src="img/Custom/cake-9.png" alt="">
+                        <div class="pro__detail">
+                            <h2>Timeless Elegance Cake</h2>
+                            <h3>Royal Ivory Layers</h3>
+                            <h3>Vintage Pearl Delight</h3>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <h3 class="price">$98.7</h3>
+                        </div>
+                    </div>
+                    <div class="card product">
+                        <div class="card__detail">
+                            <h4>Festive Flair with Bold Flavors</h4>
+                            <p>A striking two-tiered cake designed to steal the spotlight at any celebration. The deep red fondant, cascading white drips, and vibrant rosette piping create a bold and festive look. With layers of rich red velvet and cream cheese frosting, this cake is perfect for birthdays, New Year’s parties, and holiday gatherings. Add a touch of magic to your event with this showstopper.</p>
+                            <button class="normalbtn">Customize Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product__card">
+                    <div class="product">
+                        <img src="img/Custom/cake-10.png" alt="">
+                        <div class="pro__detail">
+                            <h2>Crimson Celebration Cake</h2>
+                            <h3>Ruby Velvet Delight</h3>
+                            <h3>Scarlet Elegance </h3>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <h3 class="price">$85</h3>
+                        </div>
+                    </div>
+                    <div class="card product">
+                        <div class="card__detail">
+                            <h4>Pure Candy Bliss</h4>
+                            <p>Indulge in the richness of this double-tiered chocolate creation, crafted for true cocoa enthusiasts. Featuring layers of moist chocolate sponge, creamy ganache, and a drizzle of dark chocolate glaze, it’s topped with chocolate curls, truffles, and decorative roses. Perfect for birthdays, anniversaries, or simply to satisfy a chocolate craving, this cake is pure bliss in every bite.</p>
+                            <button class="normalbtn">Customize Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+
+    <!-- About -->
+     <div class="aboutcon">
+        <div class="about container">
+            <div class="about__container con">
+                <div class="contact con">
+                    <h4>Contact Us</h4>
+                    <div class="contact__content">
+                        <p><span>Email: </span>info@gmail.com</p>
+                        <p><span>Phone: </span>+92 345 678</p>
+                        <p><span>Address: </span>1c, allah ditta plaza, near BOP, Khayaban e Sir Syed, Rawalpindi, Punjab 04614, Pakistan</p>
+                    </div>
+                </div>
+                <div class="about_us con">
+                    <h4>About Us</h4>
+                    <div class="about-us__content">
+                        <p><a href="#">About Us</a></p>
+                        <p><a href="#">Order Now</a></p>
+                        <p><a href="#">Delivery Info</a></p>
+                        <p><a href="#">Our Food processing</a></p>
+                    </div>
+                </div>
+                <div class="order con">
+                    <h4>How to Order</h4>
+                    <div class="order__content">
+                        <p><a href="#">Download the App</a></p>
+                        <p><a href="#">Log In or Sign In</a></p>
+                        <p>Order On <a href="#">+92 345 678</a></p>
+                    </div>
+                </div>
+                <div class="trust con">
+                    <h4>Trusted Sources</h4>
+                    <div class="trust__content">
+                        <p>Food sources by <a href="#"> PLDDB </a></p>
+                        <p>ISO 22000-certified suppliers</p>
+                        <p>Reliable Delivery by <a href="#"> Uber Eats </a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="follow__icons">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.twitter.com" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p id="copy">&copy; DynamoCodes. All Rights Reserved</p>
+        </div>
+     </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
